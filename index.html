@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Brown´s Garage | Estética automotiva premium</title>
+  <meta name="description" content="Estética automotiva com precisão e cuidado: lavagem detalhada, higienização interna, polimento técnico, vitrificação, revitalização de faróis e detalhamento. Solicite seu orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#0b0b0c">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Brown´s Garage | Estética automotiva premium">
+  <meta property="og:description" content="Seu carro merece mais que uma lavagem. Precisão, cuidado e acabamento para valorizar cada detalhe do seu veículo.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutomotiveBusiness",
+    "name": "Brown´s Garage",
+    "description": "Estética automotiva: lavagem detalhada, higienização interna, polimento técnico, vitrificação, revitalização de faróis e detalhamento.",
+    "knowsAbout": ["Lavagem detalhada", "Higienização interna", "Polimento técnico", "Vitrificação", "Revitalização de faróis", "Detalhamento automotivo"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="wordmark" href="#inicio" aria-label="Brown´s Garage, voltar ao início">
+        <span class="wordmark-top">Brown´s</span>
+        <span class="wordmark-bottom">Garage</span>
+      </a>
+
+      <nav class="primary-nav" id="menu" aria-label="Principal">
+        <ul>
+          <li><a class="nav-link" href="#inicio">Início</a></li>
+          <li><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li><a class="nav-link" href="#trabalho">Nosso trabalho</a></li>
+          <li><a class="nav-link" href="#sobre">Sobre nós</a></li>
+          <li><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn-primary mobile-cta" data-wa="geral">Agendar pelo WhatsApp</a>
+      </nav>
+
+      <a class="btn btn-primary header-cta" data-wa="geral">Agendar pelo WhatsApp</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <img class="hero-media" src="assets/img/hero-dark-sedan.webp" width="2400" height="1600" alt="Carro de pintura escura com reflexos em ambiente escuro" fetchpriority="high">
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow--light hero-eyebrow">Estética automotiva • Cuidado em cada detalhe</p>
+        <h1 class="hero-title" id="hero-titulo">
+          <span class="line"><span>Seu carro merece</span></span>
+          <span class="line"><span>mais que uma</span></span>
+          <span class="line"><span>lavagem.</span></span>
+        </h1>
+        <div class="hero-foot">
+          <p class="hero-lead">Precisão, cuidado e acabamento para valorizar cada detalhe do seu veículo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-ghost" href="#servicos">Conheça nossos serviços</a>
+            <a class="btn btn-primary" data-wa="orcamento">Solicite um orçamento</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#servicos" aria-label="Rolar para a seção de serviços">
+        <span class="scroll-cue-line" aria-hidden="true"></span><span class="scroll-cue-text">Role</span>
+      </a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Serviços</p>
+          <h2 class="section-title" id="servicos-titulo">Cada serviço,<br>uma técnica própria.</h2>
+        </header>
+        <ol class="service-grid" data-render="services"></ol>
+      </div>
+    </section>
+
+    <!-- NOSSO TRABALHO -->
+    <section class="section work" id="trabalho" aria-labelledby="trabalho-titulo">
+      <div class="container">
+        <header class="section-head section-head--split" data-reveal>
+          <div>
+            <p class="eyebrow">Nosso trabalho</p>
+            <h2 class="section-title" id="trabalho-titulo">Acabamento que<br>se revela na luz.</h2>
+          </div>
+          <p class="section-note">Arraste o controle para comparar antes e depois. As imagens desta seção são ilustrativas.</p>
+        </header>
+
+        <!-- Imagens ilustrativas: o par antes/depois real é definido em js/site.config.js > comparison -->
+        <div class="compare" data-reveal>
+          <img class="compare-img compare-after" src="assets/img/comparador-antes-depois.webp" alt="Comparação ilustrativa: pintura depois do polimento" width="1800" height="1198" loading="lazy" decoding="async">
+          <img class="compare-img compare-before" src="assets/img/comparador-antes-depois.webp" alt="Comparação ilustrativa: pintura antes do polimento" width="1800" height="1198" loading="lazy" decoding="async">
+          <span class="compare-label compare-label--before" aria-hidden="true">Antes</span>
+          <span class="compare-label compare-label--after" aria-hidden="true">Depois</span>
+          <div class="compare-handle" aria-hidden="true"><span></span></div>
+          <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois da pintura">
+        </div>
+
+        <div class="gallery" data-render="gallery"></div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section diff" aria-labelledby="diferenciais-titulo">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Diferenciais</p>
+          <h2 class="section-title" id="diferenciais-titulo">O que faz a diferença<br>no resultado final.</h2>
+        </header>
+
+        <ul class="diff-grid">
+          <li class="diff-item" data-reveal>
+            <span class="diff-num" aria-hidden="true">01</span>
+            <h3>Atenção aos mínimos detalhes</h3>
+            <p>Cada área do veículo é avaliada antes do início do serviço, incluindo os pontos que costumam passar despercebidos.</p>
+          </li>
+          <li class="diff-item" data-reveal>
+            <span class="diff-num" aria-hidden="true">02</span>
+            <h3>Produtos adequados a cada superfície</h3>
+            <p>Pintura, vidros, couro, plásticos e borrachas exigem produtos diferentes. Escolhemos o adequado para cada um.</p>
+          </li>
+          <li class="diff-item" data-reveal>
+            <span class="diff-num" aria-hidden="true">03</span>
+            <h3>Técnicas específicas por serviço</h3>
+            <p>Cada tipo de serviço segue o seu próprio método de execução, do preparo até a finalização.</p>
+          </li>
+          <li class="diff-item" data-reveal>
+            <span class="diff-num" aria-hidden="true">04</span>
+            <h3>Cuidado com a conservação</h3>
+            <p>Orientamos sobre a manutenção do acabamento para que o resultado dure mais tempo entre um serviço e outro.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container about-grid">
+        <figure class="about-figure" data-reveal>
+          <img src="assets/img/sobre.webp" alt="Veículo cinza-grafite com pintura de alto brilho" loading="lazy" decoding="async">
+        </figure>
+
+        <div class="about-copy" data-reveal>
+          <p class="eyebrow">Sobre nós</p>
+          <h2 class="section-title" id="sobre-titulo">A diferença está<br>nos detalhes.</h2>
+          <p class="about-lead">Na Brown´s Garage, acreditamos que a diferença está nos detalhes. Cada veículo merece atenção, técnica e cuidado para alcançar o melhor resultado possível.</p>
+          <p class="about-text">Tratamos cada carro como uma peça única. Antes de qualquer serviço, conversamos sobre o que o veículo precisa e o que você espera do resultado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS (oculto até haver avaliações em site.config.js > reviews) -->
+    <section class="section reviews" id="depoimentos" aria-labelledby="depoimentos-titulo" hidden>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Avaliações</p>
+          <h2 class="section-title" id="depoimentos-titulo">O que nossos clientes dizem.</h2>
+        </header>
+        <div class="review-grid" data-render="reviews"></div>
+      </div>
+    </section>
+
+    <!-- CHAMADA PARA AÇÃO + CONTATO -->
+    <section class="cta" id="contato" aria-labelledby="cta-titulo">
+      <img class="cta-media" src="assets/img/cta.webp" alt="" loading="lazy" decoding="async" aria-hidden="true">
+      <div class="container cta-inner">
+        <div class="cta-copy" data-reveal>
+          <p class="eyebrow eyebrow--light">Contato</p>
+          <h2 class="cta-title" id="cta-titulo">Vamos dar ao seu carro o cuidado que ele merece?</h2>
+          <p class="cta-text">Conte para nós o que seu veículo precisa e receba uma proposta personalizada.</p>
+          <a class="btn btn-primary btn-lg" data-wa="orcamento">Solicitar orçamento pelo WhatsApp</a>
+        </div>
+
+        <dl class="contact-grid" data-reveal>
+          <div>
+            <dt>Endereço</dt>
+            <dd data-bind="contact.address"></dd>
+          </div>
+          <div>
+            <dt>Horário de atendimento</dt>
+            <dd data-render="hours"></dd>
+          </div>
+          <div>
+            <dt>Telefone</dt>
+            <dd data-bind="contact.phone"></dd>
+          </div>
+          <div data-social>
+            <dt>Instagram</dt>
+            <dd><a data-bind-href="social.instagram" data-bind="social.instagramLabel"></a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="wordmark" href="#inicio" aria-label="Brown´s Garage, voltar ao início">
+          <span class="wordmark-top">Brown´s</span>
+          <span class="wordmark-bottom">Garage</span>
+        </a>
+        <p data-bind="brand.description"></p>
+      </div>
+
+      <nav aria-label="Rodapé">
+        <p class="footer-title">Navegação</p>
+        <ul class="footer-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#trabalho">Nosso trabalho</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <p class="footer-title">Atendimento</p>
+        <ul class="footer-links">
+          <li data-bind="contact.address"></li>
+          <li data-bind="contact.phone"></li>
+          <li><a data-wa="geral">WhatsApp</a></li>
+          <li data-social><a data-bind-href="social.instagram" data-bind="social.instagramLabel"></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-title">Horário</p>
+        <div class="footer-hours" data-render="hours"></div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="ano"></span> Brown´s Garage. Todos os direitos reservados.</p>
+      <p data-bind="legal.cnpj"></p>
+    </div>
+  </footer>
+
+  <script src="js/site.config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
